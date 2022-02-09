@@ -96,6 +96,7 @@
   "ScreenOrder": [
     "AddAppAdminsScreen",
     "WelcomeScreen",
+    "TestingScreen",
     "MyProfileScreen",
     "TeamScreen",
     "CompanyScreen",
