@@ -169,7 +169,7 @@ TestingScreen As screen:
 
     txtInputName As text:
         BorderColor: =RGBA(9, 33, 98, 1)
-        Default: ="Add Name"
+        Default: ="Add First Name / Second Name"
         Height: =57
         Width: =421
         X: =600
