@@ -71,7 +71,7 @@ WelcomeScreen As screen:
         RadiusTopRight: =4
         Text: ="Get started"
         Width: =210
-        X: =580
+        X: =360
         Y: =593
         ZIndex: =3
 
@@ -204,4 +204,35 @@ WelcomeScreen As screen:
         X: =367
         Y: =446
         ZIndex: =10
+
+    GoToTestingScreen As button:
+        BorderColor: =ColorFade(GoToTestingScreen.Fill, -15%)
+        BorderThickness: =0
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =ColorFade(GoToTestingScreen.BorderColor, 70%)
+        Fill: =RGBA(26, 26, 84, 1)
+        FocusedBorderColor: =GoToTestingScreen.BorderColor
+        FocusedBorderThickness: =0
+        FontWeight: =Normal
+        Height: =50
+        HoverBorderColor: =ColorFade(GoToTestingScreen.BorderColor, 20%)
+        HoverColor: =GoToTestingScreen.Color
+        HoverFill: =ColorFade(GoToTestingScreen.Fill, 20%)
+        OnSelect: =Navigate(TestingScreen,None)
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =GoToTestingScreen.Fill
+        PressedColor: =GoToTestingScreen.Fill
+        PressedFill: =GoToTestingScreen.Color
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Text: ="Go to Testing Screen"
+        Width: =210
+        X: =811
+        Y: =593
+        ZIndex: =11
 

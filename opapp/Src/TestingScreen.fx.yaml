@@ -12,11 +12,11 @@ TestingScreen As screen:
         DisabledFill: =WelcomeBackground_1.Fill
         Fill: =RGBA(237, 240, 245, 1)
         FocusedBorderColor: =WelcomeBackground_1.BorderColor
-        Height: =664
+        Height: =656
         HoverFill: =WelcomeBackground_1.Fill
         PressedFill: =WelcomeBackground_1.Fill
         Width: =1366
-        Y: =104
+        Y: =112
         ZIndex: =1
 
     WelcomeDetailsBackground_1 As button:
@@ -27,7 +27,7 @@ TestingScreen As screen:
         Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderColor: =WelcomeDetailsBackground_1.BorderColor
         FocusedBorderThickness: =2
-        Height: =515
+        Height: =409
         HoverBorderColor: =ColorFade(WelcomeDetailsBackground_1.BorderColor, 20%)
         HoverColor: =WelcomeDetailsBackground_1.Color
         HoverFill: =ColorFade(WelcomeDetailsBackground_1.Fill, 20%)
@@ -40,8 +40,8 @@ TestingScreen As screen:
         RadiusTopRight: =4
         Text: =""
         Width: =829
-        X: =270
-        Y: =179
+        X: =276
+        Y: =159
         ZIndex: =2
 
     WelcomeGetStart_1 As button:
@@ -102,8 +102,8 @@ TestingScreen As screen:
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =67
-        Width: =WelcomeDetailsBackground_1.Width - 357
-        X: =456
+        Width: =54
+        X: =445
         Y: =330
         ZIndex: =5
 
@@ -167,72 +167,24 @@ TestingScreen As screen:
         Y: =28
         ZIndex: =8
 
-    WelcomeTitle_1 As label:
-        Align: =Center
-        Color: =RGBA(26, 26, 84, 1)
-        FocusedBorderColor: =WelcomeTitle_1.BorderColor
-        FontWeight: =Lighter
-        Height: =54
-        HoverBorderColor: =WelcomeTitle_1.BorderColor
-        HoverColor: =WelcomeTitle_1.Color
-        HoverFill: =WelcomeTitle_1.Fill
-        PressedBorderColor: =WelcomeTitle_1.BorderColor
-        PressedColor: =WelcomeTitle_1.Color
-        PressedFill: =WelcomeTitle_1.Fill
-        Size: =24
-        Text: ="Welcome to the team, "&MyUserDisplayName&"!"
-        Width: =763
-        X: =303
-        Y: =407
+    txtInputName As text:
+        BorderColor: =RGBA(9, 33, 98, 1)
+        Default: ="Add Name"
+        Height: =57
+        Width: =421
+        X: =600
+        Y: =334
         ZIndex: =9
 
-    WelcomeIntro_1 As label:
-        Align: =Center
-        Color: =RGBA(26, 26, 84, 1)
-        FocusedBorderColor: =WelcomeIntro_1.BorderColor
-        FontWeight: =Lighter
-        Height: =86
-        HoverBorderColor: =WelcomeIntro_1.BorderColor
-        HoverColor: =WelcomeIntro_1.Color
-        HoverFill: =WelcomeIntro_1.Fill
-        PressedBorderColor: =WelcomeIntro_1.BorderColor
-        PressedColor: =WelcomeIntro_1.Color
-        PressedFill: =WelcomeIntro_1.Fill
-        Size: =14
-        Text: ="Get Onboard helps you stay on top of your onboarding tasks. You’ll also find team insights and helpful company resources. "
-        Width: =663
-        X: =367
-        Y: =446
+    Label7 As label:
+        BorderColor: =RGBA(9, 33, 98, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =68
+        Overflow: =Overflow.Scroll
+        Text: ="Add description"
+        Width: =421
+        X: =600
+        Y: =423
         ZIndex: =10
-
-    GoToTestingScreen As button:
-        BorderColor: =ColorFade(GoToTestingScreen.Fill, -15%)
-        BorderThickness: =0
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =ColorFade(GoToTestingScreen.BorderColor, 70%)
-        Fill: =RGBA(26, 26, 84, 1)
-        FocusedBorderColor: =GoToTestingScreen.BorderColor
-        FocusedBorderThickness: =0
-        FontWeight: =Normal
-        Height: =50
-        HoverBorderColor: =ColorFade(GoToTestingScreen.BorderColor, 20%)
-        HoverColor: =GoToTestingScreen.Color
-        HoverFill: =ColorFade(GoToTestingScreen.Fill, 20%)
-        OnSelect: =Navigate(TestingScreen,None)
-        PaddingBottom: =0
-        PaddingLeft: =0
-        PaddingRight: =0
-        PaddingTop: =0
-        PressedBorderColor: =GoToTestingScreen.Fill
-        PressedColor: =GoToTestingScreen.Fill
-        PressedFill: =GoToTestingScreen.Color
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
-        Text: ="Go to Testing Screen"
-        Width: =210
-        X: =811
-        Y: =588
-        ZIndex: =11
 

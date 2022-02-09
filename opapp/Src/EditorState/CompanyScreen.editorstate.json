@@ -5371,7 +5371,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "CompanyLeadershipLabel",
-    "ParentIndex": 28,
+    "ParentIndex": 31,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -6247,7 +6247,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "CompnayEditFAQButton",
-    "ParentIndex": 32,
+    "ParentIndex": 30,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -6510,7 +6510,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "CompnayEditFAQIcon",
-    "ParentIndex": 30,
+    "ParentIndex": 28,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -8239,7 +8239,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "FaqText",
-    "ParentIndex": 31,
+    "ParentIndex": 29,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -8588,7 +8588,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "LearnMoreLeadership",
-    "ParentIndex": 29,
+    "ParentIndex": 32,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

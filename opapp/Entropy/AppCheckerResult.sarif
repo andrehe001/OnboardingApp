@@ -8124,19 +8124,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "TestingScreen.GoToTestingScreen.FocusedBorderThickness"
+                  "fullyQualifiedName": "WelcomeScreen.GoToTestingScreen.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "TestingScreen.GoToTestingScreen.FocusedBorderThickness",
+                  "fullyQualifiedName": "WelcomeScreen.GoToTestingScreen.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "TestingScreen",
-                "type": "TestingScreen.GoToTestingScreen"
+                "module": "WelcomeScreen",
+                "type": "WelcomeScreen.GoToTestingScreen"
               }
             }
           ],
@@ -8148,6 +8148,36 @@
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TestingScreen.txtInputName.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "TestingScreen.txtInputName.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "TestingScreen",
+                "type": "TestingScreen.txtInputName"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
