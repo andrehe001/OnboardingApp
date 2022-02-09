@@ -27,7 +27,7 @@ TestingScreen As screen:
         Fill: =RGBA(255, 255, 255, 1)
         FocusedBorderColor: =WelcomeDetailsBackground_1.BorderColor
         FocusedBorderThickness: =2
-        Height: =409
+        Height: =24
         HoverBorderColor: =ColorFade(WelcomeDetailsBackground_1.BorderColor, 20%)
         HoverColor: =WelcomeDetailsBackground_1.Color
         HoverFill: =ColorFade(WelcomeDetailsBackground_1.Fill, 20%)
@@ -175,16 +175,4 @@ TestingScreen As screen:
         X: =600
         Y: =334
         ZIndex: =9
-
-    Label7 As label:
-        BorderColor: =RGBA(9, 33, 98, 1)
-        BorderThickness: =2
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =68
-        Overflow: =Overflow.Scroll
-        Text: ="Add description"
-        Width: =421
-        X: =600
-        Y: =423
-        ZIndex: =10
 
